@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PSEU Team Memebers</title>
+    <link rel="stylesheet" href="./Style/style.css">
+</head>
+<body>
+    <dev class="main"> 
+        <header>
+            <h1>PSEU Team Memebers</h1>
+        </header>
+        <form>
+            <h3></h3>
+            <dev class="input_form">
+                <input type="text" placeholder="  Name">
+                <input type="email" placeholder="Email">
+                <input list="Majors" name ="major" placeholder="Major">
+                <datalist id="Majors">
+                    <option value="Computer Science "></option>
+                    <option value="Computer Engineering"></option>
+                    <option value="Information Technology "></option>
+                    <option value="Information System"></option>
+                    
+                </datalist>
+                <input list="Roles" name ="role" placeholder="Role">
+                <datalist id="Roles">
+                    <option value="Front-End Developer"></option>
+                    <option value="Back-End Developer"></option>
+                    <option value="Full-Stack Developer"></option>
+                    <option value="UI/UX Designer"></option>
+                </datalist>
+                <textarea name ="message" rows="10" cols="30" minlength="500" maxlength="1500" placeholder="Biography"></textarea>
+                <dev class="add_bottom">
+                    <input type="checkbox" name="addBottom">Add to bottom / or at index
+                    <input type="number" name="indexNum" min="0">
+                </dev>
+                <button>SAVE</button>
+            </dev>
+        </form>
+    </dev>
+    
+</body>
+</html>
