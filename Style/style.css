@@ -1,4 +1,6 @@
-form, form .input_form .input_box input, form .input_form .input_box textarea {
+/* Sass Variables*/
+/*Sass Extend/Inheritance*/
+form, form .input_form .input_box input, form .input_form .input_box textarea, section .section_head input {
   border: thin solid #C3C3C3;
   border-radius: 7px;
 }
@@ -72,6 +74,7 @@ form .input_form .input_box {
 
 form .input_form .input_box input, form .input_form .input_box textarea {
   width: 298px;
+  padding-left: 10px;
 }
 
 form .input_form .input_box input {
@@ -109,10 +112,84 @@ form button {
   border: none;
   border-radius: 0 0 15px 15px;
   text-align: center;
+  padding: 18px 32px;
+  color: #FFFFFF;
+}
+
+.body_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+section {
+  width: 950px;
+  height: 100vh;
+  background-color: #F6F6F6;
+  margin-left: 20px;
+}
+
+section .section_head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 30px;
+}
+
+section .section_head .bare {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 30px;
+  margin: 0;
+  width: 600px;
+  height: 40px;
+  background-color: #2D89E6;
+  border-radius: 0 15px 15px 0;
+  color: #FFFFFF;
+}
+
+section .section_head input {
+  width: 80px;
+  margin: 0 0 0 20px;
+  border-radius: 10px;
+  height: 20px;
+  padding-left: 10px;
+}
+
+section .section_head .iteam_bare {
+  height: 40px;
+  width: 65px;
+  border-radius: 15px 0 0 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 18px 32px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+  background-color: #2D89E6;
   color: #FFFFFF;
+}
+
+#search {
+  width: 180px;
 }
 /*# sourceMappingURL=style.css.map */

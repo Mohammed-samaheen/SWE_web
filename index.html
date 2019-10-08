@@ -12,15 +12,16 @@
         <header>
             <h1>PSEU Team Memebers</h1>
         </header>
+        <dev class="body_form">
         <form>
             <dev class="form_title">
                 <h3>Add new member</h3>
             </dev>
             <dev class="input_form">
                 <dev class="input_box">
-                    <input type="text" placeholder="  Name">
-                    <input type="email" placeholder="  Email">
-                    <input list="Majors" name ="major" placeholder="  Major">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <input list="Majors" name ="major" placeholder="Major">
                     <datalist id="Majors">
                         <option value="Computer Science "></option>
                         <option value="Computer Engineering"></option>
@@ -28,14 +29,14 @@
                         <option value="Information System"></option>
                         
                     </datalist>
-                    <input list="Roles" name ="role" placeholder="  Role">
+                    <input list="Roles" name ="role" placeholder="Role">
                     <datalist id="Roles">
                         <option value="Front-End Developer"></option>
                         <option value="Back-End Developer"></option>
                         <option value="Full-Stack Developer"></option>
                         <option value="UI/UX Designer"></option>
                     </datalist>
-                    <textarea name ="message" rows="10" cols="30" minlength="500" maxlength="1500" placeholder="  Biography"></textarea>
+                    <textarea name ="message" rows="10" cols="30" minlength="500" maxlength="1500" placeholder="Biography"></textarea>
                 </dev>
             <dev class="add_bottom">
                     <input type="checkbox" name="addBottom">
@@ -51,6 +52,40 @@
         </dev>
         
         </form>
+        <section>
+            <dev class="section_head">
+                <dev class="bare">
+                    <h6>SORT BY</h6>
+                    <input list="Sort" name="sort" placeholder=" A-Z" width="40px">
+                        <datalist id="Sort">
+                            <option value="A-Z"></option>
+                            <option value="Z-A"></option>
+                            <option value="Newest"></option>
+                            <option value="Oldest"></option>
+                        </datalist>
+                    <input list="Majors" name ="major" placeholder=" Major">
+                        <datalist id="Majors">
+                            <option value="Computer Science "></option>
+                            <option value="Computer Engineering"></option>
+                            <option value="Information Technology "></option>
+                            <option value="Information System"></option>
+                            
+                        </datalist>
+                    <input list="Roles" name ="role" placeholder="  Role">
+                        <datalist id="Roles">
+                            <option value="Front-End Developer"></option>
+                            <option value="Back-End Developer"></option>
+                            <option value="Full-Stack Developer"></option>
+                            <option value="UI/UX Designer"></option>
+                        </datalist>
+                    <input type="search" id ="search" name="search" placeholder="search">
+                </dev>
+                <dev class="iteam_bare">
+                    <h6>15 ITEMS</h6>
+                </dev>
+            </dev>
+        </section>
+        </dev>
     </dev>
     
 </body>
